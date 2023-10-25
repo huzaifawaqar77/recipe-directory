@@ -1,0 +1,16 @@
+/* form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  padding: 0px;
+} */
+.search {
+  padding: none;
+  border: none;
+  box-shadow: none;
+}
+
+input#search {
+  margin: 0px;
+}

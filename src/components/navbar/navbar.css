@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  padding: 20px;
+  background-color: royalblue;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar > a:nth-child(3) {
+  font-weight: bold;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.navbar > a:nth-child(3):hover {
+  background-color: #eee;
+  color: royalblue;
+}
